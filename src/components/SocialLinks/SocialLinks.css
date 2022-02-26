@@ -1,0 +1,26 @@
+#link-array {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+
+#link-array > div {
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+    padding: 12px 20px;
+    border-radius: 2rem;
+    background-color: #2f4858;
+}
+
+#link-array > div > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    max-width: 25px;
+    height: auto;
+}
