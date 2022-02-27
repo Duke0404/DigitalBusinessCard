@@ -30,6 +30,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 0.5rem;
 }
 
 .profile-button {
@@ -52,4 +53,14 @@
 
 #linkedin-button {
     background-color: #007be8;
+}
+
+@media (min-width: 538px) {
+    #profile-container {
+        flex-direction: row;
+    }
+
+    #profile-details {
+        align-items: flex-start;
+    }
 }

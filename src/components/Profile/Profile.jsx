@@ -18,21 +18,21 @@ const Profile = props =>
             <h2 id="profile-job-title">
                 {props.jobTitle}
             </h2>
-        </section>
 
-        <div id="profile-button-container">
-            <a href={props.resumeLink} target="_blank" rel="noreferrer">
-                <button className="profile-button" id="resume-button">
-                    Resume
-                </button>
-            </a>
-            
-            <a href={props.linkedinLink} target="_blank" rel="noreferrer">
-                <button className="profile-button" id="linkedin-button">
-                    LinkedIn
-                </button>
-            </a>
-        </div>
+            <div id="profile-button-container">
+                <a href={props.resumeLink} target="_blank" rel="noreferrer">
+                    <button className="profile-button" id="resume-button">
+                        Resume
+                    </button>
+                </a>
+                
+                <a href={props.linkedinLink} target="_blank" rel="noreferrer">
+                    <button className="profile-button" id="linkedin-button">
+                        LinkedIn
+                    </button>
+                </a>
+            </div>
+        </section>
     </header>
 
 export default Profile
