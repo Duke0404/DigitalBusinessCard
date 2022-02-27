@@ -6,7 +6,7 @@ import GithubIcon from "../../images/icons/github-icon.svg"
 const SocialLinks = props =>
     <footer id="link-array">
         <div>
-            <a href={props.emailLink}>
+            <a href={props.emailLink} target="_blank" rel="noreferrer">
                 <img
                     className="social-icon"
                     src={MailIcon}
@@ -17,7 +17,7 @@ const SocialLinks = props =>
                 />
             </a>
     
-            <a href={props.githubLink}>
+            <a href={props.githubLink} target="_blank" rel="noreferrer">
                 <img
                     className="social-icon"
                     src={GithubIcon}
