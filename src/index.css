@@ -2,12 +2,14 @@
 
 :root {
   --bg-color-1: white;
+  --text-color-1: black;
 }
 
 body {
   margin: 0;
   font-family: "Shippori Antique B1", sans-serif;
   background-color: var(--bg-color-1);
+  color: var(--text-color-1);
 }
 
 h1 {
@@ -18,4 +20,11 @@ h1 {
 h2 {
   margin: 0;
   font-size: 1.3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color-1: #1a1a1a;
+    --text-color-1: white;
+  }
 }

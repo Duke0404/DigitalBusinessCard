@@ -1,5 +1,7 @@
+import "./Description.css";
+
 const Description = props =>
-    <main>
+    <main id="description-container">
         <h2>
             About
         </h2>
