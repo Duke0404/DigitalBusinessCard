@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Duke0404.github.io/DigitalBusinessCard/static/css/main.7a013f4b.css",
-    "main.js": "/Duke0404.github.io/DigitalBusinessCard/static/js/main.2edf32a3.js",
-    "static/media/ProfileImage.jpeg": "/Duke0404.github.io/DigitalBusinessCard/static/media/ProfileImage.764b2d316a0ea1100033.jpeg",
-    "static/media/github-icon.svg": "/Duke0404.github.io/DigitalBusinessCard/static/media/github-icon.57d8d8edc83a1ab893145b19c2208175.svg",
-    "static/media/envelope-icon.svg": "/Duke0404.github.io/DigitalBusinessCard/static/media/envelope-icon.386d0a721310e8ed06d93e08c671c795.svg",
-    "index.html": "/Duke0404.github.io/DigitalBusinessCard/index.html",
-    "main.7a013f4b.css.map": "/Duke0404.github.io/DigitalBusinessCard/static/css/main.7a013f4b.css.map",
-    "main.2edf32a3.js.map": "/Duke0404.github.io/DigitalBusinessCard/static/js/main.2edf32a3.js.map"
+    "main.css": "./static/css/main.7a013f4b.css",
+    "main.js": "./static/js/main.da0ae8e0.js",
+    "static/media/ProfileImage.jpeg": "./static/media/ProfileImage.764b2d316a0ea1100033.jpeg",
+    "static/media/github-icon.svg": "./static/media/github-icon.57d8d8edc83a1ab893145b19c2208175.svg",
+    "static/media/envelope-icon.svg": "./static/media/envelope-icon.386d0a721310e8ed06d93e08c671c795.svg",
+    "index.html": "./index.html",
+    "main.7a013f4b.css.map": "./static/css/main.7a013f4b.css.map",
+    "main.da0ae8e0.js.map": "./static/js/main.da0ae8e0.js.map"
   },
   "entrypoints": [
     "static/css/main.7a013f4b.css",
-    "static/js/main.2edf32a3.js"
+    "static/js/main.da0ae8e0.js"
   ]
 }
